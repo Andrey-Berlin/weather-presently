@@ -17,8 +17,8 @@ button.onclick = function(){
             // console.log(response);
             let results = JSON.parse(response);
             console.log(results);
-            let section = document.getElementById('section'); 
-            section.innerHTML =
+            let result = document.getElementById('result'); 
+            result.innerHTML =
                 `   <hr />            
                     <h2>${results.name}</h2>
                     <hr />
@@ -67,3 +67,5 @@ button.onclick = function(){
         alert(`Network Error`);
     };
 };
+
+
