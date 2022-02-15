@@ -17,6 +17,7 @@ button.onclick = function(){
             // console.log(response);
             let results = JSON.parse(response);
             console.log(results);
+            let result = document.getElementById('result'); 
             result.innerHTML =
                 `   <hr />            
                     <h2>${results.name}</h2>
