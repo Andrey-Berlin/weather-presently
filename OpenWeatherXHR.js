@@ -57,7 +57,7 @@ button.onclick = function(){
                    <hr />
                    <li>Ветер: ${results.wind.speed}m/s
                      <hr />
-                    (Норма: до 1 м/с)</li>
+                    (Норма: 8 м/с)</li>
                     </ul>
                     <hr />
                   `
